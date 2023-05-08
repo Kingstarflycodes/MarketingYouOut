@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, a, li {
+  color: #fff;
+  font-family: AssociateSans-Light;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: AssociateSans-Light;
+  src: url(../font/AssociateSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../font/Roboto-Black.ttf);
+}
+
+.bg-green {
+  background: #1FEC15;
+}
+
+.green {
+  color: #1FEC15;
+}
+
+.jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.jc-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jc-sa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.jc-fe {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aic-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fw-bold {
+  font-weight: 1000;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.navBar {
+  width: 100%;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  background: #000;
+  z-index: 1100;
+}
+
+.headerText {
+  width: 250px;
+  height: 100%;
+}
+
+.navBtnCont {
+  width: 200px;
+}
+
+.login {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.joinNow {
+  border-radius: 10px;
+  width: 130px;
+  height: 45px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+}
+
+.thankCont {
+  width: 80%;
+  background: #222C2E;
+  border-radius: 30px;
+  margin: 400px 0 200px 0;
+}
+
+.awe {
+  font-size: 54px;
+  margin: 80px 0 40px 0;
+  opacity: .8;
+}
+
+.thankText {
+  text-align: center;
+  font-size: 30px;
+  word-spacing: 2px;
+  margin-bottom: 40px;
+  opacity: .8;
+}
+
+.joinWork {
+  width: 300px;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+footer {
+  margin-top: 70px;
+}
+
+.footerImg {
+  width: 400px;
+}
+
+.footDetails {
+  width: 100%;
+  padding: 0 420px 0 450px;
+}
+
+.listCont p {
+  margin-bottom: 10px;
+  color: rgba(250, 250, 250, .5);
+}
+
+.listCont li {
+  color: rgba(250, 250, 250, .5);
+}
+
+.social-media {
+  margin: 20px 0 15px 0;
+}
+
+.social-media img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
