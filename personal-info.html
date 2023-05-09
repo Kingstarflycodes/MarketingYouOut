@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Marketing You Out</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/personal-info.css" />
   </head>
   <body>
@@ -15,16 +18,16 @@
     
     <div class="joinMarket aic-center">
       <h1 class="joinText">Join Marketing You <span class="green">Out</span> Now!</h1>
-      <div class="infoCont aic-center">
+      <form class="infoCont aic-center">
         <p class="fw-bold">Your information</p>
         <p>Please provide your basic details</p>
         <input class="insert" type="word" placeholder="Insert your name">
         <input class="insert" type="word" placeholder="Insert your email">
-        <input class="insert" type="word" placeholder="Insert your phone number">
-        <a href="./payment.html"><button class="infoBtn bg-green fw-bold">Join Work Shop</button></a>
+        <input id="phone" class="insert" type="tel" placeholder="Insert your phone number">
+        <a href="./payment.html"><button id="submit" class="infoBtn bg-green fw-bold">Join Work Shop</button></a>
         <p class="line"></p>
         <a href="#" class="fw-bold">Join Discord Server</a>
-      </div>
+      </form>
     </div>
 
     <footer class="aic-center">
@@ -66,6 +69,8 @@
     </footer>
     
     
+    
+    <script src="./build/js/intlTelInput.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
