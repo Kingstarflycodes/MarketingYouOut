@@ -632,7 +632,5 @@ footer p {
 }
 
 @media (max-width: 820px) {
-  html {
-    width: 1100px;
-  }
+  
 }
