@@ -486,7 +486,6 @@ footer p {
 }
 
 
-/*desktop screens*/
 @media (max-width: 1920px) {
   .navBar {
     padding: 20px 400px 20px 250px;
