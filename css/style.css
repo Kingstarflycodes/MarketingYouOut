@@ -743,7 +743,7 @@ footer p {
   }
 }
 
-@media (max-width: 601px) {
+@media (max-width: 640px) {
   .navBar{
     padding: 10px 10px;
     height: 60px;
@@ -870,5 +870,111 @@ footer p {
   
   .footDetails {
     padding: 0 100px 0 130px;
+  }
+}
+
+@media (max-width: 414px) {
+  .redeText {
+    font-size: 12px;
+  }
+  .aboutImgCont {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .advid {
+    width: 392px;
+  }
+  
+  .aboutText {
+    width: 392px;
+    text-align: justify;
+    margin: 20px 0 0 0;
+  }
+  
+  .downAbt {
+    margin: 0 -39px 0 0;
+  }
+  
+  .omc {
+    margin: 0 10px 0 10px;
+  }
+  
+  .mc {
+    margin: 0 0 0 10px;
+    height: 700px;
+  }
+  
+  .memSes {
+    margin: 0 0 0 10px;
+  }
+  
+  .membership {
+    text-align: center;
+  }
+  
+  .memCont {
+    width: 395px;
+    margin: 0;
+  }
+  
+  .contactCont {
+    flex-direction: column;
+    width: 395px;
+  }
+  
+  .childOne, .childTwo {
+    width: 100%;
+  }
+  
+  .c2btn {
+    margin: 0 -240px 0 0;
+  }
+  
+  .footerImg {
+    width: 300px;
+  }
+  
+  .footDetails {
+    padding: 0 50px 0 80px;
+  }
+}
+
+@media(max-width: 393px) {
+  .advid {
+    width: 360px;
+  }
+  
+  .aboutText {
+    width: 360px;
+  }
+  
+  .downAbt {
+    margin: 0 -28px 0 0;
+  }
+  
+  .omc h2, .mc h2 {
+    font-size: 30px;
+  }
+  
+  .mc {
+    height: 720px;
+  }
+  
+  .memCont {
+    width: 360px;
+    margin-right: 12px;
+  }
+  
+  .contactCont {
+    width: 360px;
+  }
+  
+  .c2btn {
+    margin: 0 -200px 0 0;
+  }
+  
+  .footDetails {
+    padding: 0 30px 0 60px;
   }
 }
