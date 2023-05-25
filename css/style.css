@@ -743,7 +743,7 @@ footer p {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 601px) {
   .navBar{
     padding: 10px 10px;
     height: 60px;
@@ -769,12 +769,18 @@ footer p {
     height: 20px;
   }
   
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .redeCont {
-    margin: 0 10px 0 20px;
+    width: 90%;
+    margin: 0;
   }
   
   .redefine {
-    font-size: 32px;
+    font-size: 40px;
   }
   
   .redeText {
@@ -782,8 +788,9 @@ footer p {
   }
   
   .headPic {
-    width: 200px;
-    height: 170px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
   
   #joinNow {
@@ -873,66 +880,103 @@ footer p {
   }
 }
 
-@media (max-width: 414px) {
-  .redeText {
-    font-size: 12px;
-  }
+@media (max-width: 601px) {
   .aboutImgCont {
-    width: 100%;
     flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .advid, .aboutText {
+    width: 90%;
   }
   
   .advid {
-    width: 392px;
+    height: 300px;
+    margin: 0;
+  }
+  
+  .advidImg {
+    width: 100%;
+    height: 600px;
   }
   
   .aboutText {
-    width: 392px;
-    text-align: justify;
+    font-size: 22px;
     margin: 20px 0 0 0;
   }
   
-  .downAbt {
-    margin: 0 -39px 0 0;
-  }
-  
-  .omc {
-    margin: 0 10px 0 10px;
-  }
-  
-  .mc {
-    margin: 0 0 0 10px;
-    height: 700px;
-  }
-  
-  .memSes {
-    margin: 0 0 0 10px;
+  .memCont {
+    width: 90%;
   }
   
   .membership {
     text-align: center;
   }
   
-  .memCont {
-    width: 395px;
-    margin: 0;
-  }
-  
   .contactCont {
     flex-direction: column;
-    width: 395px;
+    align-items: center;
+    width: 90%;
   }
   
   .childOne, .childTwo {
-    width: 100%;
+    width: 95%;
+  }
+  
+  .insertNameEmail, .insertText {
+    width: 90%;
+  }
+}
+
+.c2btn {  
+  margin: 10px -320px 0 0;
+}
+
+.footDetails {
+  padding: 0 80px 0 110px;
+}
+
+@media (max-width: 480px) {
+  .advidImg {
+    height: 400px;
+  }
+  
+  .wDetailsCont {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .omc h2, .mc h2, .omc p, .mc p {
+    text-align: center;
+  }
+  
+  .workshop {
+    margin-bottom: 30px;
+  }
+  
+  .omc h2, .mc h2 {
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .omc, .mc {
+    margin: 0;
+  }
+  
+  .mc {
+    border: none;
+    padding: 0;
   }
   
   .c2btn {
-    margin: 0 -240px 0 0;
+    margin: 0 -200px 0 0;
   }
   
   .footerImg {
-    width: 300px;
+    width: 70%;
   }
   
   .footDetails {
@@ -940,41 +984,60 @@ footer p {
   }
 }
 
-@media(max-width: 393px) {
-  .advid {
-    width: 360px;
+@media (max-width: 414px) {
+  .redefine {
+    font-size: 36px;
   }
   
-  .aboutText {
-    width: 360px;
+  .redeText {
+    font-size: 20px;
+  }
+  .aboutImgCont {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .advid {
+    height: 250px;
+  }
+  
+  .downAbt {
+    margin: 0 -39px 0 0;
+  }
+  
+  .c2btn {
+    margin: 0 -160px 0 0;
+  }
+  
+  .footerImg {
+    width: 300px;
+  }
+  
+  .footDetails {
+    padding: 0 40px 0 70px;
+  }
+}
+
+@media(max-width: 393px) {
+  .advid {
+    height: 250px;
   }
   
   .downAbt {
     margin: 0 -28px 0 0;
   }
   
-  .omc h2, .mc h2 {
-    font-size: 30px;
-  }
-  
-  .mc {
-    height: 720px;
-  }
-  
-  .memCont {
-    width: 360px;
-    margin-right: 12px;
-  }
-  
-  .contactCont {
-    width: 360px;
-  }
-  
   .c2btn {
-    margin: 0 -200px 0 0;
+    margin: 0 -150px 0 0;
   }
   
   .footDetails {
     padding: 0 30px 0 60px;
+  }
+}
+
+@media (max-width: 360px) {
+  .advid {
+    height: 220px;
   }
 }
