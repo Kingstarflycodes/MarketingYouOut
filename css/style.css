@@ -12,7 +12,11 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p, button, a, li {
   color: #fff;
-  font-family: AssociateSans-Light;
+  font-family: Eloquia;
+}
+
+li {
+  text-decoration: underline;
 }
 
 a {
@@ -24,14 +28,14 @@ p {
 }
 
 @font-face {
-  font-family: AssociateSans-Light;
-  src: url(../font/AssociateSans-Light.ttf);
+  font-family: Eloquia;
+  src: url(../font/Typekiln - EloquiaText-ExtraLight.otf);
 }
 
-@font-face {
+/* @font-face {
   font-family: Roboto-Black;
   src: url(../font/Roboto-Black.ttf);
-}
+} */
 
 .bg-green {
   background: #1FEC15;
@@ -120,7 +124,7 @@ p {
 .redefine {
   font-size: 80px;
   font-weight: 1000;
-  font-family: Roboto-Black;
+  font-family: Eloquia;
 }
 
 .redeText {
