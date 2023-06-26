@@ -32,11 +32,6 @@ p {
   src: url(../font/Typekiln - EloquiaText-ExtraLight.otf);
 }
 
-/* @font-face {
-  font-family: Roboto-Black;
-  src: url(../font/Roboto-Black.ttf);
-} */
-
 .bg-green {
   background: #1FEC15;
 }
@@ -93,9 +88,8 @@ p {
   /*z-index: 1100;*/
 }
 
-.headerImg {
-  width: 250px;
-  height: 80%;
+.headerText {
+  font-size: 160%;
   cursor: pointer;
 }
 
@@ -212,6 +206,7 @@ p {
 .aboutText {
   width: 800px;
   font-size: 34px;
+  margin: 0;
 }
 
 .downAbtCont {
@@ -395,7 +390,7 @@ p {
   width: 50%;
 }
 
-.childOne {
+.child {
   width: 45%;
 }
 
@@ -435,8 +430,19 @@ p {
   font-size: 14px;
 }
 
-.childTwo {
+#myForm {
   width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 5px 0 20px;
+  padding: 0 10px;
+}
+
+.writeTxt {
+  width: 100%;
+  text-align: center;
+  margin: 0 10px;
 }
 
 .insertNameEmail {
@@ -462,12 +468,13 @@ p {
 }
 
 .c2btn {
-  width: 270px;
+  width: 70%;
   height: 50px;
   border: none;
   border-radius: 10px;
-  margin-right: -80px;
   font-size: 28px;
+  color: #fff;
+  margin-right: 10px;
 }
 
 footer {
@@ -481,6 +488,7 @@ footer {
 .footDetails {
   width: 100%;
   padding: 0 420px 0 450px;
+  margin-top: 20px;
 }
 
 .listCont p {
@@ -516,6 +524,50 @@ footer p {
   main {
     padding: 0 300px;
   }
+}
+
+.redefine {
+  font-size: 90px;
+}
+
+.redeText {
+  font-size: 32px;
+}
+
+.aboutText {
+  font-size: 40px;
+}
+
+.omc h2, .mc h2 {
+  font-size: 70px;
+}
+
+.omc p, .mc p {
+  font-size: 40px;
+}
+
+.mc {
+  height: 1100px;
+}
+
+.memCont {
+  width: 65%;
+}
+
+.work {
+  font-size: 32px;
+}
+
+.amount {
+  font-size: 45px;
+}
+
+.amount span {
+  font-size: 35px;
+}
+
+.memTxt {
+  font-size: 40px;
 }
 
 @media (max-width: 1600px) {
@@ -873,10 +925,7 @@ footer p {
   }
   
   .c2btn {
-    width: 150px;
-    height: 50px;
     font-size: 18px;
-    margin-right: -130px;
   }
   
   .footDetails {
@@ -884,7 +933,7 @@ footer p {
   }
 }
 
-@media (max-width: 601px) {
+@media (max-width: 540px) {
   .aboutImgCont {
     flex-direction: column;
     align-items: center;
@@ -933,10 +982,6 @@ footer p {
   }
 }
 
-.c2btn {  
-  margin: 10px -320px 0 0;
-}
-
 .footDetails {
   padding: 0 80px 0 110px;
 }
@@ -975,10 +1020,6 @@ footer p {
     padding: 0;
   }
   
-  .c2btn {
-    margin: 0 -200px 0 0;
-  }
-  
   .footerImg {
     width: 70%;
   }
@@ -1009,10 +1050,6 @@ footer p {
     margin: 0 -39px 0 0;
   }
   
-  .c2btn {
-    margin: 0 -160px 0 0;
-  }
-  
   .footerImg {
     width: 300px;
   }
@@ -1029,10 +1066,6 @@ footer p {
   
   .downAbt {
     margin: 0 -28px 0 0;
-  }
-  
-  .c2btn {
-    margin: 0 -150px 0 0;
   }
   
   .footDetails {
